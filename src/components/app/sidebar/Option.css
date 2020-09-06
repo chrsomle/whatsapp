@@ -1,0 +1,16 @@
+.Option {
+	user-select: none;
+	height: 40px;
+	padding: 13px 24px;
+	display: flex;
+	align-items: center;
+	font-size: 14.5px;
+	color: #d4d5d7;
+	cursor: pointer;
+	background-color: transparent;
+	transition: background-color 100ms;
+}
+
+.Option:hover {
+	background: #1f272a;
+}

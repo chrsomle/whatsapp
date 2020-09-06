@@ -1,0 +1,70 @@
+.Chat {
+	height: 72px;
+	width: 100%;
+	background-color: var(--dark-darker);
+	display: flex;
+	align-items: center;
+	position: relative;
+	padding: 1rem;
+	border-bottom: var(--border);
+	cursor: pointer;
+	user-select: none;
+}
+
+.Chat::after {
+	content: '';
+	display: block;
+	position: absolute;
+	right: 80%;
+	left: 0;
+	bottom: -1px;
+	height: 1px;
+	background-color: var(--dark-darker);
+}
+
+.Chat:hover {
+	background-color: var(--dark-primary);
+}
+
+.user-profile {
+	margin-right: 1rem;
+}
+
+.detail h4 {
+	font-weight: 500;
+	font-size: 17px;
+	color: var(--unread-user);
+	user-select: none;
+}
+
+.detail p {
+	font-weight: 500;
+	font-size: 14px;
+	color: var(--unread-msg);
+	user-select: none;
+}
+
+.read h4 {
+	color: var(--read-user);
+	font-weight: 400;
+}
+
+.read p {
+	color: var(--read-msg);
+	font-weight: 400;
+}
+
+.time {
+	user-select: none;
+	position: absolute;
+	font-size: 12px;
+	top: 1rem;
+	right: 1rem;
+	color: var(--time-unread);
+	font-weight: 500;
+}
+
+.active {
+	color: var(--dark-accent);
+	font-weight: 400;
+}

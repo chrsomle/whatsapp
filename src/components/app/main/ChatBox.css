@@ -1,0 +1,19 @@
+.ChatBox {
+	position: relative;
+	background-color: var(--dark-primary);
+	height: 100%;
+	overflow: hidden;
+}
+
+.ChatBox > * {
+	user-select: none;
+	cursor: default;
+}
+
+.activator {
+	cursor: pointer;
+	position: absolute;
+	right: 1rem;
+	top: 50%;
+	z-index: 100;
+}

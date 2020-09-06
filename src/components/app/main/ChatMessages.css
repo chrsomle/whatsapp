@@ -1,0 +1,19 @@
+.ChatMessages {
+	width: 100%;
+	height: calc(100vh - 121px);
+	position: relative;
+}
+
+.ChatMessages::before {
+	content: '';
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	background-image: url(https://web.whatsapp.com/img/bg-chat-tile-dark_9f39e76b5a0e039e53afc5d9d4bdd780.png);
+	background-repeat: repeat;
+	opacity: 0.06;
+}

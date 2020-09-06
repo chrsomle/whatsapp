@@ -1,0 +1,26 @@
+.ChatInfo {
+	z-index: 10;
+	width: 100%;
+	height: 59px;
+	background-color: var(--dark-primary);
+	filter: drop-shadow(1px 0 1px #222);
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 1rem;
+}
+
+.person {
+	display: flex;
+	align-items: center;
+}
+
+.name {
+	font-weight: 500;
+	margin-left: 1rem;
+}
+
+.utils {
+	display: flex;
+	align-items: center;
+}

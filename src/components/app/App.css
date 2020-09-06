@@ -1,0 +1,41 @@
+:root {
+	--dark-main: #262d31;
+	--dark-primary: #2a2f32;
+	--dark-search: #323739;
+	--dark-darker: #131c21;
+	--dark-accent: #b1b3b5;
+	--dark-detail: #f1f1f2bf;
+	--white: #f1f1f2f5;
+	--read-user: #f1f1f2eb;
+	--read-msg: #f1f1f2cc;
+	--unread-user: #fff;
+	--unread-msg: rgba(var(--unread-user), 0.9);
+	--time-unread: #00af9c;
+	--border: 1px solid #333;
+	--inactive-title: #f1f1f2e0;
+	--inactive-detail: #a6a8aa;
+}
+
+.App {
+	background-color: var(--dark-primary);
+	height: 100vh;
+	overflow: hidden;
+	min-width: 648px;
+	display: flex;
+	color: var(--white);
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.side {
+	position: relative;
+	z-index: 20;
+	flex: 0.35;
+	display: flex;
+	flex-direction: column;
+	min-width: 260px;
+	border-right: var(--border);
+}
+
+.main {
+	flex: 0.8;
+}

@@ -1,0 +1,42 @@
+.Alert {
+	display: flex;
+	align-items: center;
+	background-color: #085373;
+	padding: 13px 14px;
+	min-height: 89px;
+	cursor: pointer;
+	user-select: none;
+	transition: background-color linear 0.3s;
+}
+
+.alert-icon {
+	padding: 10px 11px 7px;
+	margin-right: 16px;
+	box-sizing: content-box;
+	background-color: #8eb2be;
+	border-radius: 50%;
+}
+
+.about {
+	color: var(--white);
+}
+
+.alert-detail {
+	display: flex;
+	align-items: flex-end;
+}
+
+.alert-detail .a-like {
+	color: var(--dark-detail);
+	font-size: 14px;
+	text-decoration: transparent;
+	transition: text-decoration linear 0.3s;
+}
+
+.Alert:hover .alert-detail .a-like {
+	text-decoration: underline;
+}
+
+.Alert:hover {
+	background-color: #084a66;
+}
